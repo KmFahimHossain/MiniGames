@@ -12,8 +12,6 @@ import { fileURLToPath } from "url";
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-app.use(cors());
-app.get("/", (req, res) => res.send("KhelaHobe Server ✅"));
 app.use(express.static(path.join(__dirname, "dist")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "dist", "index.html"));
