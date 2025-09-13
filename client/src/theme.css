@@ -24,7 +24,7 @@ h5 {
 /* =================== Header =================== */
 .appbar {
   width: 100%;
-  min-width: 320px; /* or any value you prefer */
+  min-width: 350px; /* or any value you prefer */
   background: var(--color-accent);
   color: var(--color-light);
   padding: 12px 20px;
@@ -59,7 +59,7 @@ h5 {
 /* =================== Footer =================== */
 .app-footer {
   width: 100%;
-  min-width: 320px; /* or any value you prefer */
+  min-width: 350px; /* or any value you prefer */
   background: var(--color-accent);
   color: var(--color-light);
   padding: 20px 0;
@@ -110,7 +110,7 @@ h5 {
 /* === Game Grid === */
 .game-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.5rem;
   width: 100%;
   justify-items: center;
