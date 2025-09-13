@@ -1,0 +1,8 @@
+{
+  "name": "khelahobe-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "cd client && npm ci && npm run build && cp -r dist ../server/",
+    "start": "cd server && npm ci && npm start"
+  }
+}
